@@ -60,8 +60,13 @@ Do budoucna plánujeme také přidat do budíku **nabíjecí baterii**, aby Vás
 
 ## 👨‍💻 Autoři projektu
 
-Tým žáků ZŠ Židlochovice, Jiří Vítek, Jonáš Krejčiřík kaso-0, Matěj Marek, Patrik Hoff (2025)  
-Mentor: jiri.vitek@zszidlochovice.cz
+Tým žáků ZŠ Židlochovice (2025)
+- Jiří Vítek  
+- Jonáš Krejčiřík (kaso-0)  
+- Matěj Marek  
+- Patrik Hoff
+  
+**Mentor:** [jiri.vitek@zszidlochovice.cz](mailto:jiri.vitek@zszidlochovice.cz)
 
 ---
 
