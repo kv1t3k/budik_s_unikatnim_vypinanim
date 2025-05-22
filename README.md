@@ -51,7 +51,12 @@ Při buzení je nutné správně zodpovědět zvolenou otázku v aplikaci, jinak
 
 Projekt byl sestaven z komponent dostupných v ČR, kvůli pravidlům soutěže. Pro srovnání jsme testovali i ceny z Aliexpressu.
 
+> 📝 Poznámka: Pro soutěž bylo nutné použít komponenty skladem v ČR. Srovnání ukazuje potenciální úsporu při použití zahraničních zdrojů (např. AliExpress), ale s delší dodací dobou a rizikem kompatibility.
 *(viz podrobnosti v přiloženém souboru `rozpočet AL x CZ.xlsx`)*
+
+ ## 🔋 Co chystáme do budoucna
+
+Do budoucna plánujeme také přidat do budíku **nabíjecí baterii**, aby Vás budík v případě výpadku proudu **nepřestal fungovat a spolehlivě Vás ráno vzbudil**.
 
 ## 👨‍💻 Autoři projektu
 
@@ -61,7 +66,7 @@ Mentor: jiri.vitek@zszidlochovice.cz
 ---
 
 > V budoucnu plánujeme rozšířit funkce, přidat více typů otázek a možnost aktualizace přes internet.
-> Do budoucna plánujeme také přidat do budíku nabíjecí baterii, aby Vás budík v případě výpadku proudu nepřestal fungovat a spolehlivě Vás ráno vzbudil.
+
 
 
 
