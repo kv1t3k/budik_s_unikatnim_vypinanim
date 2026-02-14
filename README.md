@@ -5,7 +5,7 @@ Naším cílem soutěže bylo vytvořit moderní a originální zařízení prop
 
 Naším výsledkem je chytrý budík s unikátním způsobem vypínání pomocí otázek.
 
-![obrazek_chytreho_budiku](images/obrazek.jpg)
+![obrazek_chytreho_budiku](obrazek_chytreho_budiku.jpg)
 
 ## Základní popis
 
@@ -24,7 +24,7 @@ Tento princip aktivního vypínání pomáhá překonat ranní ospalost a snižu
 
 Webová aplikace běží lokálně na zařízení. Stačí být připojen ke stejné domácí Wi-Fi síti. Wi-Fi síť se přednastavuje v programu nahraném na ESP32-S3.
 
-![webova_aplikace](images/webova_aplikace.png) 
+![webova_aplikace](webova_aplikace.png) 
 
 ### Aplikace umožňuje:
 
@@ -49,7 +49,7 @@ Aplikace je navržena tak, aby byla snadno přístupná, rozšiřitelná a umož
 - Gravírovaný a 3D tištěný kryt
 - Lokální webová aplikace běžící na ESP32
 
-![esp_zapojeni](images/esp_zapojeni.png)
+![esp_zapojeni](esp_zapojeni.png)
 
 ##  Proč je náš budík jiný?
 
