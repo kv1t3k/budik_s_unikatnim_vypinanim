@@ -5,7 +5,7 @@ Naším cílem soutěže bylo vytvořit moderní a originální zařízení prop
 
 Naším výsledkem je chytrý budík s unikátním způsobem vypínání pomocí otázek.
 
-![obrazek_chytreho_budiku](obrazek_chytreho_budiku.jpg)
+![obrazek_chytreho_budiku2](obrazek_chytreho_budiku2.jpg)
 
 ## Základní popis
 
@@ -39,6 +39,7 @@ Přístup do aplikace je rychlý:
 
 Aplikace je navržena tak, aby byla snadno přístupná, rozšiřitelná a umožňovala budoucí aktualizace.
 
+![prezentace](prezentace.jpg)
 
 ##  Použité technologie
 
@@ -49,7 +50,7 @@ Aplikace je navržena tak, aby byla snadno přístupná, rozšiřitelná a umož
 - Gravírovaný a 3D tištěný kryt
 - Lokální webová aplikace běžící na ESP32
 
-![esp_zapojeni](esp_zapojeni.png)
+![zapojeni](zapojeni.png)
 
 ##  Proč je náš budík jiný?
 
@@ -74,7 +75,7 @@ Výsledek:
 
 Podrobné srovnání je uvedeno v souboru:
 
-"soucastky_a_rozpocet.xlsx"
+![soucastky_a_rozpocet.xlsx](soucastky_a_rozpocet.xlsx)
 
 
 ##  Možnost dalšího vývoje
@@ -88,6 +89,8 @@ Plánovaná vylepšení:
 - možnost jednodušších aktualizací systému
 
 Projekt pro nás představuje základ pro další vývoj a experimentování.
+
+![obrazek_chytreho_budiku](obrazek_chytreho_budiku.jpg)
 
 ##  Odkaz na soutěž
 
