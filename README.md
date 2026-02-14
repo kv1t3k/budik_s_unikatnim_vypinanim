@@ -1,77 +1,116 @@
-# Chytrý budík s unikátním vypínáním
+# ⏰ Chytrý budIQ s unikátním vypínáním
+---
+Tento projekt vznikl v rámci soutěže pořádané ve spolupráci se ZŠ Židlochovice a FabLabem Brno.  
+Naším cílem soutěže bylo vytvořit moderní a originální zařízení propojující 3D tisk, gravírování, návrh vlastní elektroniky a programování.
 
-Tento projekt vznikl v rámci soutěže organizované ve spolupráci se **ZŠ Židlochovice** a **FabLabem**. Naším cílem bylo vytvořit **moderní zařízení**, které propojí technologie jako **3D tisk, gravírování a programování** – výsledkem je **chytrý budík s unikátním způsobem vypínání pomocí otázek**.
+Naším výsledkem je chytrý budík s unikátním způsobem vypínání pomocí otázek.
 
-## 🔧 Popis funkce
+![obrazek_chytreho_budiku](images/obrazek.jpg)
 
-Budík se automaticky připojí k Wi-Fi a zobrazuje aktuální čas. Uživatel si přes **webovou aplikaci** nastaví:
+## Základní popis
 
-- Čas buzení
-- Otázky pro vypnutí budíku
-- Vypnutí
+Budík se po zapojení automaticky připojí k přednastavené Wi-Fi síti a na LED displeji zobrazuje aktuální čas, který si pravidelně z internetu synchronizuje. Ovládání probíhá přes webovou aplikaci běžící lokálně přímo na mikrokontroléru **ESP32-S3**. Není potřeba instalovat žádnou externí aplikaci do telefonu.
 
-Při buzení je nutné správně zodpovědět zvolenou otázku v aplikaci, jinak budík **nepřestane zvonit**.
+Uživatel si v aplikaci nastaví:
+- čas buzení
+- dny v týdnu
+- otázky (například matematické nebo znalostní)
 
-## 🌐 Ovládání přes aplikaci
+Budík nelze vypnout pouhým stisknutím tlačítka, alarm se zastaví až po správné odpovědi na zvolenou otázku.
 
-1. Přiložením telefonu k **NFC tagu** nebo použitím zkratky se otevře webová aplikace.
-2. V aplikaci je možné:
-   - Nastavit čas buzení
-   - Přidat vlastní otázky (např. matematické nebo znalostní)
+Tento princip aktivního vypínání pomáhá překonat ranní ospalost a snižuje riziko opětovného usnutí.
 
-## 🛠️ Použité technologie
+## Webová aplikace
 
-- **ESP32-S3 Pico**
-- **8x32 LED displej**
-- **Vlastní návrh a výroba desky plošných spojů (PCB)**
-- **NFC technologie**
-- **Gravírovaný a 3D tištěný design**
-- **Webová aplikace běžící lokálně na ESP32-S3**
+Webová aplikace běží lokálně na zařízení. Stačí být připojen ke stejné domácí Wi-Fi síti. Wi-Fi síť se přednastavuje v programu nahraném na ESP32-S3.
 
-## ⚙️ Jak budík zapnout
+![webova_aplikace](images/webova_aplikace.png) 
 
-1. Připojte budík k elektrické zásuvce přes USB-C.
-2. Automaticky se připojí k přednastavené Wi-Fi síti.
-3. Na displeji se zobrazí aktuální čas.
-4. Ovládejte pomocí telefonu – přes NFC nebo zkratku.
+### Aplikace umožňuje:
 
-## 💡 Proč je náš budík jiný?
+-  Přidat nový budík (čas + dny)
+-  Spravovat seznam budíků a otázek
+-  Vytvářet vlastní otázky a odpovědi
+-  Odpovídat na otázku při buzení
 
-| Náš budík 🧠               | Běžné budíky 😴               |
-|---------------------------|-------------------------------|
-| Ručně vyrobený            | Sériová výroba                |
-| Vypínání pomocí otázek    | Jednoduché tlačítko          |
-| Aktivní probuzení         | Minimální interakce          |
+Přístup do aplikace je rychlý:
+- přiložením telefonu k NFC tagu na budíku
+- nebo přes uloženou webovou zkratku v telefonu
 
-## 🎥 Demo a prezentace
+Aplikace je navržena tak, aby byla snadno přístupná, rozšiřitelná a umožňovala budoucí aktualizace.
 
-> Video a ukázka z provozu jsou součástí školní prezentace a budou přidány i sem později.
 
-## 📦 Rozpočet a srovnání
+##  Použité technologie
 
-Projekt byl sestaven z komponent dostupných v ČR, kvůli pravidlům soutěže. Pro srovnání jsme testovali i ceny z Aliexpressu.
+- ESP32-S3 Pico
+- 8×32 LED displej
+- Vlastní návrh a výroba PCB
+- NFC technologie
+- Gravírovaný a 3D tištěný kryt
+- Lokální webová aplikace běžící na ESP32
 
-> 📝 Poznámka: Pro soutěž bylo nutné použít komponenty skladem v ČR. Srovnání ukazuje potenciální úsporu při použití zahraničních zdrojů (např. AliExpress), ale s delší dodací dobou a rizikem kompatibility.
-*(viz podrobnosti v přiloženém souboru `rozpočet AL x CZ.xlsx`)*
+![esp_zapojeni](images/esp_zapojeni.png)
 
- ## 🔋 Co chystáme do budoucna
+##  Proč je náš budík jiný?
 
-Do budoucna plánujeme také přidat do budíku **nabíjecí baterii**, aby Vás budík v případě výpadku proudu **nepřestal fungovat a spolehlivě Vás ráno vzbudil**.
+| Náš budík | Běžné budíky |
+|-----------|--------------|
+| Ruční výroba | Sériová výroba |
+| Vypínání pomocí otázek | Jednoduché tlačítko |
+| Aktivní probuzení | Minimální interakce |
 
-## 👨‍💻 Autoři projektu
 
-Tým žáků ZŠ Židlochovice (2025)
+##  Rozpočet a srovnání
+
+Kvůli pravidlům soutěže jsme museli použít výhradně součástky dostupné skladem v České republice. První verze budíku tedy vznikla z komponent zakoupených u českých dodavatelů.
+
+Po skončení soutěže jsme postavili ještě jeden kus budíku, tentokrát ze součástek objednaných z AliExpressu.  
+Cílem bylo porovnat cenový rozdíl mezi nákupem v ČR a zahraničí.
+
+Výsledek:
+- při nákupu součástek z AliExpressu byl nákup levnější
+- je však nutné počítat s delší dodací dobou (pro nás to bylo 9 dní)
+- a možnými riziky kompatibility či kvality
+
+Podrobné srovnání je uvedeno v souboru:
+
+"soucastky_a_rozpocet.xlsx"
+
+
+##  Možnost dalšího vývoje
+
+Po skončení soutěže se cesty našeho týmu postupně rozdělily, projekt však pro nás nekončí. Ve volném čase bychom se mu chtěli i nadále věnovat a rozvíjet jej.
+
+Plánovaná vylepšení:
+- vestavěná nabíjecí baterie (funkčnost při výpadku proudu)
+- nové typy otázek
+- rozšíření funkcí webové aplikace
+- možnost jednodušších aktualizací systému
+
+Projekt pro nás představuje základ pro další vývoj a experimentování.
+
+##  Odkaz na soutěž
+
+https://www.soutezsfablabem.cz/predesle-rocniky/jaro-2025
+
+## Poděkování
+
+Děkujeme všem, kteří nás v projektu podpořili, zejména vedení školy a týmu FabLab Brno za možnost účasti v soutěži.
+
+
+## Autoři
+
+Tým žáků ZŠ Židlochovice (2025):
+
 - Jiří Vítek  
 - Jonáš Krejčiřík (kaso-0)  
 - Matěj Marek  
-- Patrik Hoff
-  
-**Mentor:** [jiri.vitek@zszidlochovice.cz](mailto:jiri.vitek@zszidlochovice.cz)
+- Patrik Hoff  
 
----
-
-> V budoucnu plánujeme rozšířit funkce, přidat více typů otázek a možnost aktualizace přes internet.
+**Mentor:** Jiří Vítek  
+spoluprace.jirivitek@gmail.com
 
 
 
 
+Tento projekt není dovoleno dále upravovat, kopírovat ani jinak využívat bez předchozí domluvy s autory. Sdílení odkazu na repozitář je povoleno.
