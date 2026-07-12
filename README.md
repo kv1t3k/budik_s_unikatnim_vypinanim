@@ -1,4 +1,4 @@
-# ⏰ Chytrý budIQ s unikátním vypínáním
+# ⏰ Chytrý budIQ s unikátním vypínáním 
 ---
 Tento projekt vznikl v rámci soutěže pořádané ve spolupráci se ZŠ Židlochovice a FabLabem Brno.  
 Naším cílem soutěže bylo vytvořit moderní a originální zařízení propojující 3D tisk, gravírování, návrh vlastní elektroniky a programování.
