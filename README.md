@@ -111,7 +111,7 @@ Tým žáků ZŠ Židlochovice (2025):
 - Patrik Hoff  
 
 **Mentor:** Jiří Vítek  
-j.v1t3k@proton.me
+jrv1t3k@proton.me
 
 
 
